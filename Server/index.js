@@ -23,6 +23,11 @@ server.listen(2016,function(){
       console.log(userList);
       io.sockets.emit("server_send_listUser",{"userList":userList});
     });
+    socket.on("client_send_messenget",function(data){
+      console.log(data);
+      io.sockets.emit("server_send_messenger", data);
+    });
+
 
     socket.on("disconnect", function(){
         var index = userList.findIndex(x => x.id == socket.id);

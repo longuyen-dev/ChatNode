@@ -14,6 +14,8 @@
 		AC2D5D5A218AE477002B1462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2D5D58218AE477002B1462 /* LaunchScreen.storyboard */; };
 		AC2D5D63218AED60002B1462 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2D5D62218AED60002B1462 /* LoginViewController.swift */; };
 		AC715307218B1E8A009E56CC /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC715306218B1E8A009E56CC /* Users.swift */; };
+		AC8199A12195BBB400CE3817 /* ChatMessengerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8199A02195BBB400CE3817 /* ChatMessengerCell.swift */; };
+		AC8199A32195C10F00CE3817 /* Messenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8199A22195C10F00CE3817 /* Messenger.swift */; };
 		E4FF89B0DD4F05A14C6BB2E3 /* Pods_ChatNode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F033619F75435D4196945AE3 /* Pods_ChatNode.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,8 @@
 		AC2D5D5B218AE477002B1462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC2D5D62218AED60002B1462 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AC715306218B1E8A009E56CC /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		AC8199A02195BBB400CE3817 /* ChatMessengerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessengerCell.swift; sourceTree = "<group>"; };
+		AC8199A22195C10F00CE3817 /* Messenger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messenger.swift; sourceTree = "<group>"; };
 		D9EB50AC891C9C2B431A7A19 /* Pods-ChatNode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatNode.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatNode/Pods-ChatNode.release.xcconfig"; sourceTree = "<group>"; };
 		F033619F75435D4196945AE3 /* Pods_ChatNode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatNode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -82,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				AC2D5D62218AED60002B1462 /* LoginViewController.swift */,
+				AC8199A02195BBB400CE3817 /* ChatMessengerCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -97,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				AC715306218B1E8A009E56CC /* Users.swift */,
+				AC8199A22195C10F00CE3817 /* Messenger.swift */,
 			);
 			path = Object;
 			sourceTree = "<group>";
@@ -233,7 +239,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC715307218B1E8A009E56CC /* Users.swift in Sources */,
+				AC8199A32195C10F00CE3817 /* Messenger.swift in Sources */,
 				AC2D5D63218AED60002B1462 /* LoginViewController.swift in Sources */,
+				AC8199A12195BBB400CE3817 /* ChatMessengerCell.swift in Sources */,
 				AC2D5D52218AE475002B1462 /* ViewController.swift in Sources */,
 				AC2D5D50218AE475002B1462 /* AppDelegate.swift in Sources */,
 			);
